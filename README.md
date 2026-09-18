@@ -24,7 +24,7 @@ Implementar e documentar um laboratório de  **Network Operations Center (NOC)**
 | `zabbix-srv-gh` | `10.110.102.132` | Zabbix Server + MariaDB + Frontend |
 | `graf-srv-gh` | `10.110.102.110` | Grafana |
 | `srv-linux-gh` | `10.110.102.109` | Servidor monitorado |
-| Gateway | `10.20.30.1` | Saída da rede do laboratório |
+| Gateway | `10.110.102.1` | Saída da rede do laboratório |
 
 ## Sumário
 
@@ -39,7 +39,7 @@ Implementar e documentar um laboratório de  **Network Operations Center (NOC)**
 - [Fase 09 — Integração Grafana + Zabbix] (#fase-09--integracao-grafana--zabbix)
 - [Fase 10 — Dashboard NOC] (#fase-10--dashboard-noc)
 - [Fase 11 — Controles de Segurança] (#fase-11--controles-de-seguranca)
-- [Fase 12 - Simulação de incidentes] (#fase-12--simulacao-de-incidentes)
+- [Fase 12 — Simulação de incidentes] (#fase-12--simulacao-de-incidentes)
 
 ---
 
