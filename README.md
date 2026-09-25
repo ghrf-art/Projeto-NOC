@@ -99,6 +99,8 @@ Os hostnames são padronizados, os pacotes atualizados e o fuso horário definid
 Disponibilizar SSH e Apache no srv-linux-gh.
 No servidor monitorado(srv-linux-gh), o SSH e Apache são instalados, habilitados e testados local e remotamente.
 
+**Comandos/itens de validação:** `systemctl status ssh` • `systemctl status apache2` • `curl`
+
 ### Checkpoint
 **Portas 22 e 80 acessíveis pela rede do laboratório.**
 
@@ -150,7 +152,6 @@ O `srv-linux-gh` é cadastrado como host e o Agent 2 passou a enviar métricas p
 
 ### Checkpoint
 **Host disponível e enviando métricas.**
-
 ### Evidências 2
 
 ![Fase 06 — Zabbix Server](imagens/fase06-agent-2.png)
