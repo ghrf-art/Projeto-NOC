@@ -203,7 +203,10 @@ Criar identidade de integração de somente leitura.
 
 ![Fase 08 — API Zabbix](imagens/fase08-api-zabbix.png)
 
----
+---ix.png
+    ├── fase12-integracao.png
+    ├── fase13-dashboard.png
+    ├── fase14-seguranca.png
 
 ## Fase 09 — Integração Grafana + Zabbix
 
@@ -300,20 +303,17 @@ Como melhoria futura, o ambiente pode receber HTTPS, autenticação centralizada
 projeto-noc-modelo/
 ├── README.md
 └── imagens/
-    ├── fase01-planejamento.png
-    ├── fase02-vms.png
-    ├── fase03-conectividade.png
-    ├── fase04-preparacao-linux.png
-    ├── fase05-servicos.png
-    ├── fase06-wireshark.png
-    ├── fase07-zabbix-server.png
-    ├── fase08-agent2.png
-    ├── fase09-monitoramento.png
-    ├── fase10-grafana.png
-    ├── fase11-api-zabbix.png
-    ├── fase12-integracao.png
-    ├── fase13-dashboard.png
-    ├── fase14-seguranca.png
-    ├── fase15-incidentes.png
-    └── fase16-evidencias.png
+    ├── fase01-vms.png
+    ├── fase02-conectividade.png
+    ├── fase03-preparacao-servidores.png
+    ├── fase04-servicos.png
+    ├── fase05-wireshark.png
+    ├── fase06-zabbix-server.png
+    ├── fase07-grafana.png
+    ├── fase08-api-zabbix.png
+    ├── fase09-integracao.png
+    ├── fase10-dashboard.png
+    ├── fase11-seguranca.png
+    ├── fase12-incidentes.png
+    
 ```
