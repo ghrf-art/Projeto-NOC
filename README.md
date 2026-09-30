@@ -55,7 +55,7 @@ A principio, é preciso criar três VMs Ubuntu Server com sua versão mais recen
 
 ### Evidências
 
-![Fase 01 — VMs e sistemas operacionais](imagens/fase01-vms.png)
+![Fase 01 — VMs e sistemas operacionais](Imagens/fase01-vms.png)
 
 ---
 
@@ -73,7 +73,7 @@ Os três servidores recebem IP estático e são validados com `ip -br addr`, `ip
 
 ### Evidências
 
-![Fase 02 — IP estático e conectividade](imagens/fase02-conectividade.png)
+![Fase 02 — IP estático e conectividade](Imagens/fase02-conectividade.png)
 
 ---
 
@@ -91,7 +91,7 @@ Os hostnames são padronizados, os pacotes atualizados e o fuso horário definid
 
 ### Evidências
 
-![Fase 03 — Preparação Servidores](imagens/fase03-preparacao-servidores.png)
+![Fase 03 — Preparação Servidores](Imagens/fase03-preparacao-servidores.png)
 
 ## Fase 04 — Serviços SSH e HTTP
 
@@ -105,7 +105,7 @@ No servidor monitorado(srv-linux-gh), o SSH e Apache são instalados, habilitado
 **Portas 22 e 80 acessíveis pela rede do laboratório.**
 
 ### Evidências
-![Fase 04 — Serviços SSH e HTTP](imagens/fase04-servicos.png)
+![Fase 04 — Serviços SSH e HTTP](Imagens/fase04-servicos.png)
 
 ---
 ## Fase 05 — Diagnóstico manual e Wireshark
@@ -121,7 +121,7 @@ Essa fase pode ser executada tanto em uma máquina com sistema operacional Windo
 
 ### Evidências
 
-![Fase 05 — Diagnóstico manual e Wireshark](imagens/fase05-wireshark.png)
+![Fase 05 — Diagnóstico manual e Wireshark](Imagens/fase05-wireshark.png)
 
 --- 
 
@@ -142,7 +142,7 @@ No `zabbix-srv-gh`, MariaDB, Zabbix Server, frontend Apache/PHP e Agent 2 são i
 
 ### Evidências 1
 
-![Fase 06 — Zabbix Server](imagens/fase06-configuracao.png)
+![Fase 06 — Zabbix Server](Imagens/fase06-configuracao.png)
 
 ### Objetivo 2
 
@@ -154,7 +154,7 @@ O `srv-linux-gh` é cadastrado como host e o Agent 2 passou a enviar métricas p
 **Host disponível e enviando métricas.**
 ### Evidências 2
 
-![Fase 06 — Zabbix Server](imagens/fase06-agent-2.png)
+![Fase 06 — Zabbix Server](Imagens/fase06-agent-2.png)
 
 ### Objetivo 3
 
@@ -167,7 +167,7 @@ São validados ICMP, HTTP, CPU, memória, disco, rede, uptime e a visão de Prob
 
 ### Evidências 3
 
-![Fase 06 — Zabbix Server](imagens/fase06-monitoramento.png)
+![Fase 06 — Zabbix Server](Imagens/fase06-monitoramento.png)
 
 ---
 
@@ -185,7 +185,7 @@ O Grafana é instalado no `graf-srv-gh` e o acesso ficou restrito à rede do lab
 
 ### Evidências
 
-![Fase 07 — Grafana](imagens/fase07-grafana.png)
+![Fase 07 — Grafana](Imagens/fase07-grafana.png)
 
 ---
 
@@ -201,7 +201,7 @@ Criar identidade de integração de somente leitura.
 
 ### Evidências
 
-![Fase 08 — API Zabbix](imagens/fase08-api-zabbix.png)
+![Fase 08 — API Zabbix](Imagens/fase08-api-zabbix.png)
 
 ---ix.png
     ├── fase12-integracao.png
@@ -220,7 +220,7 @@ O plugin Zabbix é habilitado e o data source `Zabbix-NOC` retornou `Save & test
 
 ### Evidências
 
-![Fase 09 — Integração Grafana + Zabbix](imagens/fase09-integracao.png)
+![Fase 09 — Integração Grafana + Zabbix](Imagens/fase09-integracao.png)
 
 ---
 
@@ -236,7 +236,7 @@ O dashboard reúne disponibilidade dos hosts, CPU, memória, disco, rede, HTTP, 
 
 ### Evidências
 
-![Fase 10 — Dashboard NOC](imagens/fase10-dashboard.png)
+![Fase 10 — Dashboard NOC](Imagens/fase10-dashboard.png)
 
 ---
 
@@ -254,7 +254,7 @@ As regras de firewall e os privilégios são revisados, evitando exposição des
 
 ### Evidências
 
-![Fase 11 — Segurança](imagens/fase11-seguranca.png)
+![Fase 11 — Segurança](Imagens/fase11-seguranca.png)
 
 ---
 
@@ -272,7 +272,7 @@ Foi simulado Apache parado. O host permaneceu acessível por ICMP, mas o HTTP fa
 
 ### Evidências
 
-![Fase 12 — Simulação de incidentes](imagens/fase12-incidentes.png)
+![Fase 12 — Simulação de incidentes](Imagens/fase12-incidentes.png)
 
 ---
 
